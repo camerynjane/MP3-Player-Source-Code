@@ -68,7 +68,7 @@ void flashPage() {
   u8g2.setFont(u8g2_font_ncenB10_tr);
   u8g2.drawStr(15, 30, "MP3 Player");
   u8g2.setFont(u8g2_font_6x10_tr);
-  u8g2.drawStr(10, 45, "By camkindacool");
+  u8g2.drawStr(10, 45, "By EDGE @ UCSD");
 }
 
 void setup(void) {
