@@ -3,8 +3,8 @@ Source code for MP3 Project + Project Slide Link
 
 ## Step-by-Step Software Setup
 
-1. **Install Arduino IDE**\
-    - Download & install the latest version of the Arduino IDE from the official website
+1. **Install Arduino IDE**
+    - Download & install the latest version of the [Arduino IDE](https://www.arduino.cc/en/software/) from the official website
 
 2. **Add Required Libraries**\
     Open Arduino IDE and install or add the following libraries via Library Manager or manual download:
