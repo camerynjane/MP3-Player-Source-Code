@@ -26,14 +26,14 @@ Source code for MP3 Project + Project Slide Link
 6. **Prepare the SD Card**\
     Format the 8GB micro SD card w/ FAT32 file system. Copy MP3 audio files named sequentially (e.g. 001.mp3, 002.mp3) to the root directory of the SD card.\
 
-    Should look like this:
-    SD Card/
-        1/
-            001.mp3
-        2/
-            002.mp3
-        3/
-            003.mp3
+    Should look like this:\
+    SD Card/\
+        1/\
+            001.mp3\
+        2/\
+            002.mp3\
+        3/\
+            003.mp3\
 
 7. **Insert the SD card**\
     Insert the formatted micro SD card into the DFPlayer Mini module's SD card slot. (Tip: Run the code from the Arduino IDE and ensure it reads the SD card files properly by looking at the Serial Monitor)
