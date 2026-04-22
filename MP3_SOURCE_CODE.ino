@@ -9,9 +9,9 @@
 #include "OneButton.h"           // Makes button click handling easier
 
 // ===== PIN SETUP ===== (These are the Arduino pins connected to the 3 buttons)
-// const uint8_t leftButtonPin = ;      // === FIX ME===
-// const uint8_t selectionButtonPin = ; // === FIX ME ===
-// const uint8_t rightButtonPin = ;     // === FIX ME ===
+const uint8_t leftButtonPin = ;      // === FIX ME===
+const uint8_t selectionButtonPin = ; // === FIX ME ===
+const uint8_t rightButtonPin = ;     // === FIX ME ===
 
 // ===== MENU VARIABLES =====
 
@@ -96,7 +96,7 @@ void flashPage() {
   u8g2.setFont(u8g2_font_ncenB10_tr);
   u8g2.drawStr(15, 30, "MP3 Player");
   u8g2.setFont(u8g2_font_6x10_tr);
-  u8g2.drawStr(10, 45, "By _______ );     //====FIX ME!!====
+  u8g2.drawStr(10, 45, "By _______");     //====FIX ME!!==== (add your team's name!)
 }
 
 // ======================================================
